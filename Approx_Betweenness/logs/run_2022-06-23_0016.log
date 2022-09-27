@@ -1,0 +1,10 @@
+INFO:root:Started
+INFO:root:ca-GrQc - RAND2: 0.4100 seconds
+INFO:root:ca-GrQc - DIAM: 9.1782 seconds
+INFO:root:ca-GrQc - Abra: 0.0414 seconds
+INFO:root:ca-HepPh - RAND2: 6.6473 seconds
+INFO:root:ca-HepPh - DIAM: 54.7893 seconds
+INFO:root:ca-HepPh - Abra: 0.0644 seconds
+INFO:root:ca-HepTh - RAND2: 2.0631 seconds
+INFO:root:ca-HepTh - DIAM: 20.7636 seconds
+INFO:root:ca-HepTh - Abra: 0.0524 seconds

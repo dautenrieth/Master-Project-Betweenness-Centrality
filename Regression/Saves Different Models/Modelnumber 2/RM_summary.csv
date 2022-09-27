@@ -1,0 +1,27 @@
+                       OLS Regression Results                      
+Dep. Variable:   ,ExactValue      ,  R-squared:         ,   0.939  
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.939  
+Method:          ,Least Squares   ,  F-statistic:       ,7.448e+04 
+Date:            ,Tue, 12 Jul 2022,  Prob (F-statistic):,  0.00    
+Time:            ,22:37:51        ,  Log-Likelihood:    ,1.5016e+05
+No. Observations:, 24000          ,  AIC:               ,-3.003e+05
+Df Residuals:    , 23994          ,  BIC:               ,-3.003e+05
+Df Model:        ,     5          ,                     ,          
+Covariance Type: ,nonrobust       ,                     ,          
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+TimesSampled   , 2.993e-05, 5.37e-08,  557.133, 0.000, 2.98e-05,    3e-05
+maxDegree      ,-5.958e-10, 1.06e-11,  -56.406, 0.000,-6.16e-10,-5.75e-10
+NumberNodes    , 6.302e-08, 1.11e-09,   56.882, 0.000, 6.08e-08, 6.52e-08
+NumberEdges    ,-3.484e-09, 9.09e-11,  -38.339, 0.000,-3.66e-09,-3.31e-09
+Degree         , 2.233e-06,  9.3e-08,   24.009, 0.000, 2.05e-06, 2.42e-06
+ClusteringCoeff,   -0.0002, 7.84e-06,  -24.534, 0.000,   -0.000,   -0.000
+SampledPaths   ,-6.314e-09, 3.06e-10,  -20.649, 0.000,-6.91e-09,-5.71e-09
+Omnibus:      ,34859.498,  Durbin-Watson:     ,   1.591    
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,26689938.498
+Skew:         , 8.484   ,  Prob(JB):          ,    0.00    
+Kurtosis:     ,165.487  ,  Cond. No.          ,4.91e+16    
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 7.26e-20. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

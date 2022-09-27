@@ -1,0 +1,42 @@
+                       OLS Regression Results                      
+Dep. Variable:   ,ExactValue      ,  R-squared:         ,   0.994  
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.994  
+Method:          ,Least Squares   ,  F-statistic:       ,3.074e+05 
+Date:            ,Tue, 12 Jul 2022,  Prob (F-statistic):,  0.00    
+Time:            ,21:53:10        ,  Log-Likelihood:    ,1.7885e+05
+No. Observations:, 24000          ,  AIC:               ,-3.577e+05
+Df Residuals:    , 23985          ,  BIC:               ,-3.576e+05
+Df Model:        ,    14          ,                     ,          
+Covariance Type: ,nonrobust       ,                     ,          
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+ApproxValue    ,    0.0002, 3.08e-07,  490.556, 0.000,    0.000,    0.000
+maxDegree      ,  1.52e-09, 9.07e-12,  167.657, 0.000,  1.5e-09, 1.54e-09
+NumberNodes    , 2.244e-09, 1.77e-10,   12.688, 0.000,  1.9e-09, 2.59e-09
+NumberEdges    , 1.761e-09, 1.44e-10,   12.227, 0.000, 1.48e-09, 2.04e-09
+Degree         , 1.377e-10, 1.02e-10,    1.348, 0.178,-6.25e-11, 3.38e-10
+ClusteringCoeff,-3.926e-09, 1.72e-09,   -2.286, 0.022,-7.29e-09, -5.6e-10
+x5             ,-3.688e-09, 1.72e-09,   -2.148, 0.032,-7.05e-09,-3.23e-10
+x0 x1          ,    0.0123, 2.51e-05,  490.423, 0.000,    0.012,    0.012
+x0 x2          ,    0.0002, 1.96e-07, 1013.540, 0.000,    0.000,    0.000
+x0 x3          ,-6.204e-05, 1.06e-07, -585.096, 0.000,-6.22e-05,-6.18e-05
+x0 x4          ,    0.0001, 1.15e-05,   10.123, 0.000, 9.39e-05,    0.000
+x0 x5          ,   -0.0451,    0.004,  -12.599, 0.000,   -0.052,   -0.038
+x1 x2          ,-5.323e-11,  2.7e-11,   -1.970, 0.049,-1.06e-10,-2.59e-13
+x1 x3          , 5.679e-12, 1.28e-12,    4.454, 0.000, 3.18e-12, 8.18e-12
+x1 x4          ,   1.8e-08,  8.4e-09,    2.141, 0.032, 1.52e-09, 3.45e-08
+x1 x5          ,-3.161e-07,  1.4e-07,   -2.259, 0.024, -5.9e-07,-4.18e-08
+x2 x3          ,-1.921e-13, 6.32e-14,   -3.041, 0.002,-3.16e-13,-6.83e-14
+x2 x4          , 4.838e-10, 5.93e-11,    8.156, 0.000, 3.68e-10,    6e-10
+x2 x5          ,-2.867e-09, 9.12e-10,   -3.142, 0.002,-4.65e-09,-1.08e-09
+x3 x4          ,-1.199e-10, 3.77e-11,   -3.178, 0.001,-1.94e-10, -4.6e-11
+x3 x5          , 1.486e-09, 6.52e-10,    2.279, 0.023, 2.08e-10, 2.76e-09
+x4 x5          ,-1.593e-07,  1.4e-07,   -1.137, 0.256,-4.34e-07, 1.15e-07
+Omnibus:      ,6338.092,  Durbin-Watson:     ,   1.982  
+Prob(Omnibus):, 0.000  ,  Jarque-Bera (JB):  ,455116.375
+Skew:         , 0.300  ,  Prob(JB):          ,    0.00  
+Kurtosis:     ,24.325  ,  Cond. No.          ,7.68e+24  
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 3.37e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

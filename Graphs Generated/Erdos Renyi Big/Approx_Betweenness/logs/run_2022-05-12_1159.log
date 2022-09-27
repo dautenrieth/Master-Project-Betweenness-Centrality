@@ -1,0 +1,18 @@
+INFO:root:Started
+INFO:root:ER_1000_10_3 - RAND2: 0.0237 seconds
+INFO:root:ER_1000_10_3 - DIAM: 2.6757 seconds
+INFO:root:ER_1000_10_3 - Abra: 0.0473 seconds
+INFO:root:ER_1000_10_3 - Betweenness: 0.0790 seconds
+INFO:root:ER_1000_14_3 - RAND2: 0.0268 seconds
+INFO:root:ER_1000_14_3 - DIAM: 2.1429 seconds
+INFO:root:ER_1000_14_3 - Abra: 0.0471 seconds
+INFO:root:ER_1000_14_3 - Betweenness: 0.0631 seconds
+INFO:root:ER_1000_24_1 - RAND2: 0.0007 seconds
+INFO:root:ER_1000_24_1 - DIAM: 0.0748 seconds
+INFO:root:ER_1000_24_1 - Abra: 0.0309 seconds
+INFO:root:ER_1000_24_1 - Betweenness: 0.0013 seconds
+INFO:root:ER_1000_26_2 - RAND2: 0.0156 seconds
+INFO:root:ER_1000_26_2 - DIAM: 1.3467 seconds
+INFO:root:ER_1000_26_2 - Abra: 0.0530 seconds
+INFO:root:ER_1000_26_2 - Betweenness: 0.0432 seconds
+INFO:root:ER_1000_3_100 - RAND2: 0.1926 seconds

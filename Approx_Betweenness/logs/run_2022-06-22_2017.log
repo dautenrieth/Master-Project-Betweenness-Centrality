@@ -1,0 +1,10 @@
+INFO:root:Started
+INFO:root:ca-GrQc - RAND2: 0.4088 seconds
+INFO:root:ca-GrQc - DIAM: 8.6733 seconds
+INFO:root:ca-GrQc - Abra: 0.0514 seconds
+INFO:root:email-Enron - RAND2: 52.1505 seconds
+INFO:root:email-Enron - DIAM: 171.1639 seconds
+INFO:root:email-Enron - Abra: 0.1222 seconds
+INFO:root:ca-HepTh - RAND2: 2.0608 seconds
+INFO:root:ca-HepTh - DIAM: 18.4219 seconds
+INFO:root:ca-HepTh - Abra: 0.0314 seconds

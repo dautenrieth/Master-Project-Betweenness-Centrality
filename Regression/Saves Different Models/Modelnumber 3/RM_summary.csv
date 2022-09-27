@@ -1,0 +1,26 @@
+                       OLS Regression Results                      
+Dep. Variable:   ,ExactValue      ,  R-squared:         ,   0.156  
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.156  
+Method:          ,Least Squares   ,  F-statistic:       ,   1112.  
+Date:            ,Wed, 13 Jul 2022,  Prob (F-statistic):,  0.00    
+Time:            ,00:27:37        ,  Log-Likelihood:    ,1.1855e+05
+No. Observations:, 24000          ,  AIC:               ,-2.371e+05
+Df Residuals:    , 23995          ,  BIC:               ,-2.370e+05
+Df Model:        ,     4          ,                     ,          
+Covariance Type: ,nonrobust       ,                     ,          
+               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Diameter       , 5.747e-06, 1.34e-07,   43.047, 0.000, 5.49e-06, 6.01e-06
+maxDegree      ,  2.88e-05, 6.69e-07,   43.042, 0.000, 2.75e-05, 3.01e-05
+NumberNodes    , 3.063e-07, 4.84e-09,   63.329, 0.000, 2.97e-07, 3.16e-07
+NumberEdges    ,-1.437e-07, 3.11e-09,  -46.259, 0.000, -1.5e-07,-1.38e-07
+Degree         , 1.505e-05, 3.36e-07,   44.738, 0.000, 1.44e-05, 1.57e-05
+ClusteringCoeff,   -0.0012, 2.85e-05,  -41.375, 0.000,   -0.001,   -0.001
+Omnibus:      ,36847.922,  Durbin-Watson:     ,   1.658    
+Prob(Omnibus):, 0.000   ,  Jarque-Bera (JB):  ,26572150.005
+Skew:         , 9.576   ,  Prob(JB):          ,    0.00    
+Kurtosis:     ,164.881  ,  Cond. No.          ,3.25e+17    
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.54e-21. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
